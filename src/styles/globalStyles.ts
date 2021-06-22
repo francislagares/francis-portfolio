@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
   ${Locomotive}
   :root {
     --black: #000322;
-    --burlywood: #f6c9a0;
+    --burlywood: #fff;
     --grey: #866c55;
   }
 
@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
   h5,
   p,
   a {
-    color: var(--black);
+    color: var(--burlywood);
   }
 
   h1,
@@ -50,7 +50,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: var(--burlywood);
+    background-color: var(--black);
     cursor: none;
     isolation: isolate;
     min-height: 100vh;
@@ -91,8 +91,8 @@ const GlobalStyles = createGlobalStyle`
 
     &:hover,
     &:focus {
-      -webkit-text-fill-color: var(--burlywood);
-      -webkit-text-stroke: calc(var(--VW) * 0.14) var(--black);
+      -webkit-text-fill-color: var(--black);
+      -webkit-text-stroke: calc(var(--VW) * 0.14) var(--burlywood);
       cursor: none;
     }
   }

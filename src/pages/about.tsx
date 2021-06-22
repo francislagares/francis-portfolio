@@ -32,7 +32,7 @@ const AboutStyles = styled(motion.div)`
       font-size: calc(var(--VW) * 16);
       line-height: 10vw;
       -webkit-text-fill-color: transparent;
-      -webkit-text-stroke: 0.1vw var(--black);
+      -webkit-text-stroke: 0.1vw var(--burlywood);
       text-transform: uppercase;
 
       :nth-child(3) {
@@ -76,7 +76,6 @@ const AboutStyles = styled(motion.div)`
       font-size: calc(var(--VW) * 10);
       text-transform: uppercase;
       -webkit-text-fill-color: var(--burlywood);
-      -webkit-text-stroke: 0.14vw var(--black);
 
       &:hover,
       &:focus {

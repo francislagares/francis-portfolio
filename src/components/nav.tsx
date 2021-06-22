@@ -26,18 +26,19 @@ const NavStyles = styled.div`
       width: 100%;
       height: 100%;
       pointer-events: none;
-      color: var(--black);
+      color: var(--burlywood);
     }
   }
 
   @media screen and (prefers-reduced-motion: reduce) {
     .works,
     .about {
+      right: -3vw;
+      color: var(--burlywood);
+      font-size: calc(var(--VW) * 1.2);
       transition: none;
       transform: rotate(90deg);
       transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
 
       @media (hover: none) and (pointer: coarse), (max-width: 500px) {
         right: -12vw;
@@ -46,7 +47,7 @@ const NavStyles = styled.div`
 
       :hover,
       :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
+        -webkit-text-stroke: 0.1vw var(--burlywood);
       }
     }
   }
@@ -54,11 +55,12 @@ const NavStyles = styled.div`
   @media screen and (prefers-reduced-motion: reduce) {
     .works,
     .about {
+      right: -3vw;
+      color: var(--burlywood);
+      font-size: calc(var(--VW) * 1.2);
       transition: none;
       transform: rotate(90deg);
       transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
 
       @media (hover: none) and (pointer: coarse), (max-width: 500px) {
         right: -12vw;
@@ -67,207 +69,19 @@ const NavStyles = styled.div`
 
       :hover,
       :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
-      }
-    }
-  }
-
-  @media screen and (prefers-reduced-motion: reduce) {
-    .works,
-    .about {
-      transition: none;
-      transform: rotate(90deg);
-      transform-origin: 0% 0%;
-      right: -3vw;
-      font-size: calc(var(--VW) * 1.2);
-
-      @media (hover: none) and (pointer: coarse), (max-width: 500px) {
-        right: -12vw;
-        font-size: calc(var(--VW) * 3);
-      }
-
-      :hover,
-      :focus {
-        -webkit-text-stroke: 0.1vw var(--black);
+        -webkit-text-stroke: 0.1vw var(--burlywood);
       }
     }
   }
 
   .works,
   .about {
+    right: -3vw;
+    color: var(--burlywood);
+    font-size: calc(var(--VW) * 1.2);
     transition: 0.3s all ease;
     transform: rotate(90deg);
     transform-origin: 0% 0%;
-    right: -3vw;
-    font-size: calc(var(--VW) * 1.2);
 
     @media (hover: none) and (pointer: coarse), (max-width: 500px) {
       right: -12vw;
@@ -276,7 +90,7 @@ const NavStyles = styled.div`
 
     :hover,
     :focus {
-      -webkit-text-stroke: 0.1vw var(--black);
+      -webkit-text-stroke: 0.1vw var(--burlywood);
     }
   }
 
@@ -298,24 +112,18 @@ const Nav = () => {
     <NavStyles>
       <Link className='logo nav-button' to='/'>
         <svg
-          width='100'
-          height='87'
-          viewBox='0 0 100 87'
-          fill='none'
+          version='1.0'
           xmlns='http://www.w3.org/2000/svg'
+          width='406.000000pt'
+          height='390.000000pt'
+          viewBox='0 0 406.000000 390.000000'
+          preserveAspectRatio='xMidYMid meet'
         >
-          <path
-            d='M67.494 14.7075L75.9853 6.12184e-06L0 0L37.9926 65.8052L46.0622 51.8284L24.6304 14.7075H67.494Z'
-            fill='#000322'
-          />
-          <path
-            d='M64.0369 21.1739L50.8778 43.9662L37.7186 21.1739L64.0369 21.1739Z'
-            fill='#000322'
-          />
-          <path
-            d='M42.5905 72.67L50.3172 86.053L99.9999 3.66394e-05L84.5466 3.78854e-05L42.5905 72.67Z'
-            fill='#000322'
-          />
+          <g
+            transform='translate(0.000000,390.000000) scale(0.100000,-0.100000)'
+            fill='#000000'
+            stroke='none'
+          ></g>
         </svg>
       </Link>
       <Link className='works nav-button' to='/works'>

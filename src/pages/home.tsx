@@ -60,10 +60,10 @@ const HomepageStyles = styled(motion.div)`
         svg {
           width: 2.5vw;
           height: 2.5vw;
-          color: var(--black);
+          color: var(--burlywood);
           pointer-events: none;
           mix-blend-mode: normal;
-          background-color: var(--burlywood);
+          background-color: var(--black);
 
           &:hover,
           &:focus {
@@ -118,6 +118,7 @@ const HomepageStyles = styled(motion.div)`
       .link-container {
         text-align: right;
         overflow: hidden;
+        color: var(--burlywood);
 
         :nth-child(1) {
           padding-right: 5vw;
