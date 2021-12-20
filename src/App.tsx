@@ -1,10 +1,8 @@
 import React, { useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { Switch, Route, useLocation } from 'react-router-dom';
-import { Awwwards } from './components/awwwards';
 import { Cover } from './components/cover';
 import { Cursor } from './components/cursor';
-import { MobileAward } from './components/mobileAward';
 import { NotFound } from './pages/NotFound';
 import { About } from './pages/about';
 import { Home } from './pages/home';
@@ -35,7 +33,6 @@ function App() {
 
   return (
     <div className='App'>
-      {width > 500 ? <Awwwards /> : <MobileAward />}
       <GlobalStyles />
       <Cover />
       <Cursor />

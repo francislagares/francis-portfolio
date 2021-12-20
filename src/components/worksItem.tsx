@@ -56,7 +56,7 @@ const WorksItemStyles = styled.li`
           height: 100%;
           position: absolute;
           z-index: 9;
-          background-color: var(--burlywood);
+          background-color: transparent;
 
           @media (hover: none) and (pointer: coarse), (max-width: 500px) {
             /* width: 10vw; */
@@ -70,7 +70,7 @@ const WorksItemStyles = styled.li`
           height: 100%;
           position: absolute;
           z-index: 10;
-          background-color: var(--black);
+          background-color: var(--burlywood);
         }
 
         img {
@@ -106,7 +106,7 @@ const WorksItemStyles = styled.li`
         bottom: 1vw;
         width: 100%;
         height: 0.1vw;
-        background-color: var(--black);
+        background-color: var(--burlywood);
         position: relative;
         display: flex;
         align-items: center;
@@ -137,7 +137,7 @@ const WorksItemStyles = styled.li`
           border-radius: 100%;
           content: '';
           position: absolute;
-          background-color: var(--black);
+          background-color: var(--burlywood);
         }
 
         &.left {
@@ -151,7 +151,7 @@ const WorksItemStyles = styled.li`
           height: 0.6vw;
           z-index: 9;
           position: absolute;
-          background-color: var(--burlywood);
+          background-color: var(--black);
         }
 
         .cover {
@@ -159,7 +159,7 @@ const WorksItemStyles = styled.li`
           height: 0.6vw;
           z-index: 10;
           position: absolute;
-          background-color: var(--black);
+          background-color: var(--burlywood);
         }
       }
     }

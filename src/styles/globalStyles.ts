@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
     --black: #000322;
     --burlywood: #fff;
     --grey: #866c55;
+    --purple: #ffd166
   }
 
   * {
@@ -82,7 +83,6 @@ const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: inherit;
     text-decoration: none;
     font-weight: 800;
     text-transform: uppercase;

@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { Animations } from '../animations';
 import DisplacementImg from '../assets/images/homepage/glass.webp';
-import Ronnie from '../assets/images/homepage/profile.webp';
-import Ronnie2 from '../assets/images/homepage/profile2.webp';
+import Francis from '../assets/images/homepage/profile.webp';
+import Francis2 from '../assets/images/homepage/profile2.webp';
 //components
 import { Names } from '../components/homepage/names';
 import { Panels } from '../components/panels';
@@ -171,8 +171,8 @@ const Home = () => {
     new hoverEffect({
       parent: profile.current,
       intensity: 1.4,
-      image1: Ronnie2,
-      image2: Ronnie,
+      image1: Francis2,
+      image2: Francis,
       displacementImage: DisplacementImg,
     });
   });
@@ -200,7 +200,6 @@ const Home = () => {
               >
                 Interactive developer striving to craft memorable experiences on
                 the digital canvas. Front-end addicted, Fullstack capable.
-                Currently located in Toronto.
               </motion.p>
             </div>
           </div>

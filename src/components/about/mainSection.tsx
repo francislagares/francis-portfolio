@@ -2,8 +2,8 @@ import React, { useRef, useEffect } from 'react';
 import hoverEffect from 'hover-effect';
 import styled from 'styled-components';
 import HeatMap from '../../assets/images/homepage/heightMap.webp';
-import Ronnie from '../../assets/images/homepage/profile.webp';
-import Ronnie2 from '../../assets/images/homepage/profile2.webp';
+import Francis from '../../assets/images/homepage/profile.webp';
+import Francis2 from '../../assets/images/homepage/profile2.webp';
 
 const MainSectionStyles = styled.div`
   margin: 20vh 0;
@@ -61,8 +61,8 @@ const MainSection = () => {
     new hoverEffect({
       parent: profileRef.current,
       intensity: 1.4,
-      image1: Ronnie2,
-      image2: Ronnie,
+      image1: Francis2,
+      image2: Francis,
       displacementImage: HeatMap,
     });
   });
