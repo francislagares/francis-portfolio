@@ -9,7 +9,6 @@ const GlobalStyles = createGlobalStyle`
     --black: #000322;
     --burlywood: #fff;
     --grey: #866c55;
-    --purple: #ffd166
   }
 
   * {
